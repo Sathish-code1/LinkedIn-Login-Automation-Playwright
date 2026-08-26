@@ -1,0 +1,7 @@
+testCase,email,password,expectedResult
+Valid Credentials,sathis2461@gmail.com,yourpassword,validCredentials
+Invalid Credentials,invalid@example.com,wrongpassword,invalidCredentials
+Empty Password,sathis2461@gmail.com,,emptyPassword
+Empty Email,,testpassword,emptyEmail
+Informal Email,abc@test,testpassword,invalidEmailFormat
+Invalid Email Format,test.com,testpassword,invalidEmailFormat
